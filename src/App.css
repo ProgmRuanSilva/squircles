@@ -35,7 +35,9 @@
   padding: 2rem;
 
   text-align: center;
+}
 
+:root {
   --alias-easeOut: cubic-bezier(0.43, 0.195, 0.02, 1);
   --alias-easeIn: cubic-bezier(0.98, 0, 0.57, 0);
   --alias-easeOutQuint: cubic-bezier(0.23, 1, 0.32, 1);
