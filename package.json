@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://ProgmRuanSilva.github.io/squicles/",
+  "homepage": "https://ProgmRuanSilva.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
