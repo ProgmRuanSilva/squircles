@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <h1 className="text-3xl font-bold mt-4 text-primary">Squircles</h1>
-      <main className="bg-white flex flex-col">
+      <main className="flex flex-col">
         <section className="flex gap-4">
           <div className="h-[128px] w-[128px] bg-[#f1f1f1] aspect-square squircle-36 flex flex-col items-center justify-center max-h-discover-card-medium flex">
             <a href="https://react.dev" target="_blank">
@@ -53,16 +53,10 @@ function App() {
               </div>
             </div>
           </div>
-          <div
-            className="border-black/8 dark:border-white/8 border-[20px] pointer-events-none absolute inset-0"
-            style={{ clipPath: "var(--clip-path-squircle-stroke-48)" }}
-          ></div>
+          <div className="border-black/8 dark:border-white/8 border-[20px] pointer-events-none absolute inset-0"></div>
         </section>
         <section className="mt-4">
-          <div
-            className="flex h-full w-[350px] gap-4 bg-white/20 p-3 text-start dark:bg-transparent flex-col text-lg sm:text-md md:text-lg max-h-discover-card-large"
-            style={{ clipPath: "var(--clip-path-squircle-60)" }}
-          >
+          <div className="flex h-full w-[350px] gap-4 bg-white/20 p-3 text-start dark:bg-transparent flex-col text-lg sm:text-md md:text-lg max-h-discover-card-large squircle-48-32">
             <img
               className="aspect-square min-h-0 bg-black/5 object-cover dark:bg-black/20 squircle-48-32"
               src="https://copilot.microsoft.com/th?id=ODSWG.f3dd0a53-9769-4d07-ba59-2827439467e7&amp;forceJpeg=1&amp;o=6&amp;w=500&amp;h=500"
@@ -78,10 +72,7 @@ function App() {
               </h2>
             </div>
           </div>
-          <div
-            className="border-black/8 dark:border-white/8 border-[20px] pointer-events-none absolute inset-0"
-            style={{ clipPath: "var(--clip-path-squircle-stroke-60)" }}
-          ></div>
+          <div className="border-black/8 dark:border-white/8 border-[20px] pointer-events-none absolute inset-0"></div>
         </section>
       </main>
     </>
